@@ -1,0 +1,13 @@
+var carYear = 2001;
+var carType = "Toyota";
+var carModel = "Corolla";
+var car = {
+    year: carYear,
+    type: carType,
+    model: carModel,
+};
+console.log(car);
+var bear = { name: "Winnie", honey: true };
+console.log(bear);
+var response = "success";
+console.log(response);
