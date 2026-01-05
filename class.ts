@@ -1,10 +1,10 @@
-// class Person {
-//   user: string | undefined;
-// }
+class Person {
+  user: string | undefined;
+}
 
-// const person = new Person();
-// person.user = "het";
-// console.log(person);
+const person = new Person();
+person.user = "het";
+console.log(person);
 
 // class Person {
 //   //   private name: string;
