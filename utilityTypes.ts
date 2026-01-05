@@ -1,3 +1,4 @@
+//optional paarmeter
 interface Point {
   x: number;
   y: number;
@@ -7,6 +8,7 @@ let pointPart: Partial<Point> = {};
 pointPart.x = 10;
 console.log(pointPart);
 
+// all property are requitred
 interface Car {
   make: string;
   model: string;
