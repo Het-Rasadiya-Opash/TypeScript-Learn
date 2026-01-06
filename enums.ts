@@ -25,7 +25,6 @@
 // console.log(CardinalDirections.West);
 
 //Numeric Enums - Fully Initialized
-
 enum StatusCodes {
   NotFound = 404,
   Success = 200,

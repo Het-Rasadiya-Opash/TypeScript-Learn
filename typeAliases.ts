@@ -26,5 +26,5 @@ const bear: Bear = { name: "Winnie", honey: true };
 console.log(bear);
 
 type Status = "success" | "error";
-let response: Status = "success";
+let response: Status = "error";
 console.log(response);
