@@ -197,4 +197,9 @@ let value: Exclude<primitiveType, string> = true;
 
 console.log(value);
 
-
+type PointGenerator = () => { x: number; y: number };
+const point: ReturnType<PointGenerator> = {
+  x: 10,
+  y: 8,
+};
+console.log(point);

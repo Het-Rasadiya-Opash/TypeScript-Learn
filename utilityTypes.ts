@@ -57,3 +57,12 @@ const person: Readonly<Person> = {
   age: 35,
 };
 // person.name = 'Israel'; // Readonly property
+
+//Return Type
+type PointGenerator = () => { x: number; y: number };
+const point: ReturnType<PointGenerator> = {
+  x: 0,
+  y: 9,
+};
+
+console.log(point);
