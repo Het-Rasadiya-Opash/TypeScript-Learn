@@ -34,14 +34,14 @@ interface Person {
   age: number;
   location?: string;
 }
-
-//omit
+ 
+//omit - delete property in 
 const bob: Omit<Person, "age" | "location"> = {
   name: "Bob",
 };
 console.log(bob);
 
-//pick
+//pick -> property pick in object 
 const bob1: Pick<Person, "name"> = {
   name: "Bob",
 };
@@ -66,3 +66,5 @@ const point: ReturnType<PointGenerator> = {
 };
 
 console.log(point);
+
+
